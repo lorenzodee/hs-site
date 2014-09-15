@@ -287,7 +287,7 @@ We proceed with the hibernate configuration file. The only difference w.r.t. the
 
 As is usual when building with maven, we store this file in the src/main/resources/META-INF directory.
 
-Note that this configuration file means that Hibernate will connect to the "events" database on localhost, with username "hstutorial" and password "hstutorial". You may need to change these values to reflect your set-up.
+Note that this configuration file means that Hibernate will connect to the "hstutorial" database on localhost, with username "hstutorial" and password "hstutorial". You may need to change these values to reflect your set-up.
 
 We set the "hbm2dll.auto" property to 'update', so that Hibernate will create the necessary table(s) when the application is run for the first time.
 
