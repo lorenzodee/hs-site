@@ -269,7 +269,7 @@ We proceed with the hibernate configuration file. The only difference w.r.t. the
                <property name="hibernate.dialect" value="org.hibernate.spatial.dialect.postgis.PostgisDialect"/>
 
                <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-               <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432:hstutorial"/>
+               <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/hstutorial"/>
                <property name="hibernate.connection.username" value="hstutorial"/>
                <property name="hibernate.connection.password" value="hstutorial"/>
                <property name="hibernate.connection.pool_size" value="5"/>
